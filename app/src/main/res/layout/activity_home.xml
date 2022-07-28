@@ -169,6 +169,21 @@
             app:layout_constraintVertical_bias="0.769"
             tools:ignore="SpeakableTextPresentCheck" />
 
+        <TextView
+            android:id="@+id/home2"
+            android:layout_width="233dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="24dp"
+            android:drawableLeft="@drawable/arrow"
+            android:fontFamily="sans-serif-black"
+            android:text="Home"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
